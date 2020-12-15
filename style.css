@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(107, 100, 33);
+}
+
+.navigation-title{
+    color: rgb(247, 247, 88);
+    transition: .7s;
+}
+
+.navigation{
+    position: sticky;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: black;
+    
+}
+
+.navigation .navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-links{
+    display: flex;
+}
+
+.navigation-links .navigation-options{
+    border-radius: 10px 20px;
+    margin: 10px;
+    border: 2px solid yellow;
+    padding: 20px;
+    color: #dfc532;
+    font-size: 20px;
+	text-decoration: none;
+	transition: .9s;
+
+}
+
+.navigation-options:hover{
+    background-color: rgb(179, 150, 58);
+}
+
+.footer-options:hover{
+    background-color: rgb(73, 71, 33);
+}
+
+.footer-bottom{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(247, 247, 88);
+    color: white;
+    text-align: center;
+}
+
+.footer-bottom .navigation-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-options{
+    display: flex;
+}
+
+.navigation-footer .footer-options{
+    align-items: center;
+    border-radius: 10px 20px;
+    margin: 5px;
+    border: 1px solid rgb(3, 3, 1);
+    padding: 20px;
+    color: black;
+    font-size: 15px;
+	text-decoration: none;
+	transition: .9s;
+
+}
+
+.all-movies{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.covers:hover{
+    opacity: 0.4;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    background-color: rgb(233, 221, 183);
+}
+.covers{
+    width: 300px;
+    height: 400px;
+
+}
+
+
+
+
+
